@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name en:</strong>
+  <%= @site.name_en %>
+</p>
+
+<p>
+  <strong>Short description en:</strong>
+  <%= @site.short_description_en %>
+</p>
+
+<p>
+  <strong>Date inscribed:</strong>
+  <%= @site.date_inscribed %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @site.longitude %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @site.latitude %>
+</p>
+
+<%= link_to 'Edit', edit_site_path(@site) %> |
+<%= link_to 'Back', sites_path %>
